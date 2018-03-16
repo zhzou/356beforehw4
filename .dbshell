@@ -1,0 +1,29 @@
+use admin
+vim /lib/systemd/system/mongod.service
+show dbs
+use hw2
+db.factbook.creaeteIndex({y:1})
+ls
+show hw2
+show collections
+db.factbook.creaeteIndex({y:1})
+db.factbook.creaeteIndex({ x:1 })
+db.createCollection("factbook")
+show collections
+use hw2
+db.factbook.find()
+use hw2
+db.factbook.find()
+it
+s
+help
+show dbs
+use hw2
+db.createCollection("factbook")
+use hw2
+db.factbook.find()
+use hw2
+db.factbook.find()
+use hw2
+db.factbook
+db.factbook.find()
